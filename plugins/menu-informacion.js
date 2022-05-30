@@ -42,7 +42,7 @@ let menu =`
  └──────────────────┘
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⠀⠀⠀⠀⠀⠀   ⠀   🕊
+⠀⠀⠀⠀⠀⠀   ⠀ ⠀⠀  🕊
 `.trim(), menu, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, '🚀 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎 🚀', `#menudescarga`, '🔐 𝙂𝙀𝙎𝙏𝙄𝙊𝙉 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 🔐', `#menugrupo`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menuinfobot|menuinfo|infomenu|menúinfobot|menúinfo)$/i
