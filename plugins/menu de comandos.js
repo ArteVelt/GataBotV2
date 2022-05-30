@@ -15,8 +15,7 @@ let menu =`
 
 ── ▪️ *INFORMACIÓN | MENÚS*
 
- ─🎖 𝗧𝗢𝗣𝗦
- 
+ 🎖 𝗧𝗢𝗣𝗦
  ┌──────────────────┐
   ─ ۰ _${usedPrefix}top10gays | topgay_
   ─ ۰ _${usedPrefix}toplind@s | toplind@_
@@ -29,8 +28,7 @@ let menu =`
   ─ ۰ _${usedPrefix}top10lagrasa | top10grasa_
 └──────────────────┘
 
- ─🕹 𝗝𝗨𝗘𝗚𝗢𝗦 
- 
+ 🕹 𝗝𝗨𝗘𝗚𝗢𝗦 
  ┌──────────────────┐
   ─ ۰ _${usedPrefix}math | mates | matemáticas *modo*_
   ─ ۰ _${usedPrefix}ttt | tictactoe *nombre del la sala*_
@@ -58,17 +56,16 @@ let menu =`
   ─ ۰ _${usedPrefix}prostituto *@tag / nombre*_
   ─ ۰ _${usedPrefix}doxxear *@tag*_
   ─ ۰ _${usedPrefix}doxxeame_
-└──────────────────┘
+ └──────────────────┘
 
  *CONVERSA CON EL BOT*
  ┌──────────────────┐
   ─ *Puedes dirigirte también como* 
   ─ *(simi | siri | cortana | alexa)*
   ─ ۰ 🕊 _${usedPrefix}bot *texto*_
-  └──────────────────┘
+ └──────────────────┘
 
- ─📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦
- 
+ 📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦
  ┌──────────────────┐
   ─ ۰ _${usedPrefix}imagen | image | gimage *texto*_
   ─ ۰ _${usedPrefix}ytsearch *texto*_
@@ -101,37 +98,36 @@ let menu =`
   ─ ۰ _${usedPrefix}spotify | spotimusica *autor, cancion*_
   ─ ۰ _${usedPrefix}frase *escriba un número (1 - 99)*_
   ─ ۰ _${usedPrefix}wpaesthetic | fondoaesthetic_
-  └──────────────────┘
+ └──────────────────┘
 
-┏⁷━━━
-┃ *GESTION DE GRUPOS* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🔐 _${usedPrefix}admins *texto*_ 
-┣ ↠🔒 _${usedPrefix}añadir *numero*_ (desactivado)
-┣ ↠🔐 _${usedPrefix}sacar @tag_ (desactivado)
-┣ ↠🔒 _${usedPrefix}save *@tag + nombre de contacto*_
-┣ ↠🔐 _${usedPrefix}daradmin | darpoder *@tag*_
-┣ ↠🔒 _${usedPrefix}quitaradmin | quitarpoder *@tag*_
-┣ ↠🔐 _${usedPrefix}grupo *abierto / cerrado*_
-┣ ↠🔒 _${usedPrefix}enable welcome_
-┣ ↠🔐 _${usedPrefix}disable welcome_
-┣ ↠🔒 _${usedPrefix}enable antilink_ *(WhatsApp)*
-┣ ↠🔐 _${usedPrefix}disable antilink_ 
-┣ ↠🔒 _${usedPrefix}enable antilink2_ *(https:)*
-┣ ↠🔐 _${usedPrefix}disable antilink2_
-┣ ↠🔒 _${usedPrefix}enable delete_
-┣ ↠🔐 _${usedPrefix}disable  delete_ 
-┣ ↠🔒 _${usedPrefix}link_
-┣ ↠🔐 _${usedPrefix}notificar | hidetag *texto*_
-┣ ↠🔒 _${usedPrefix}setname *Nuevo nombre del grupo*_
-┣ ↠🔐 _${usedPrefix}setdesc *Nueva descripción grupo*_
-┣ ↠🔒 _${usedPrefix}infogrupo_
-┣ ↠🔐 _${usedPrefix}invocar *texto*_
-┣ ↠🔒 _${usedPrefix}del *responder a un mensaje del bot*_
-┣ ↠🔐 _${usedPrefix}fantasmas_
-┣ ↠🔒 _${usedPrefix}banchat_
-┣ ↠🔐 _${usedPrefix}unbanchat_
-┗━━━━━━━━━━━━━━━━━━┛
+▫️ *GESTION DE GRUPOS* 
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}admins *texto*_ 
+ ─ ۰ _${usedPrefix}añadir *numero*_ (desactivado)
+ ─ ۰ _${usedPrefix}sacar @tag_ (desactivado)
+ ─ ۰ _${usedPrefix}save *@tag + nombre de contacto*_
+ ─ ۰ _${usedPrefix}daradmin | darpoder *@tag*_
+ ─ ۰ _${usedPrefix}quitaradmin | quitarpoder *@tag*_
+ ─ ۰ _${usedPrefix}grupo *abierto / cerrado*_
+ ─ ۰ _${usedPrefix}enable welcome_
+ ─ ۰ _${usedPrefix}disable welcome_
+ ─ ۰ _${usedPrefix}enable antilink_ *(WhatsApp)*
+ ─ ۰ _${usedPrefix}disable antilink_ 
+ ─ ۰ _${usedPrefix}enable antilink2_ *(https:)*
+ ─ ۰ _${usedPrefix}disable antilink2_
+ ─ ۰ _${usedPrefix}enable delete_
+ ─ ۰ _${usedPrefix}disable  delete_ 
+ ─ ۰ _${usedPrefix}link_
+ ─ ۰ _${usedPrefix}notificar | hidetag *texto*_
+ ─ ۰ _${usedPrefix}setname *Nuevo nombre del grupo*_
+ ─ ۰ _${usedPrefix}setdesc *Nueva descripción grupo*_
+ ─ ۰ _${usedPrefix}infogrupo_
+ ─ ۰ _${usedPrefix}invocar *texto*_
+ ─ ۰ _${usedPrefix}del *responder a un mensaje del bot*_
+ ─ ۰ _${usedPrefix}fantasmas_
+ ─ ۰ _${usedPrefix}banchat_
+ ─ ۰ _${usedPrefix}unbanchat_
+└──────────────────┘
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *CREADORES*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
