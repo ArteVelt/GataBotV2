@@ -10,7 +10,7 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =` 
- ╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
  *¡Hola! ${username}* ♡
  
  ▪️ 𝗠𝗘𝗡𝗨 𝗥𝗔𝗡𝗗𝗢𝗠
