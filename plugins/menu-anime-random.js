@@ -92,9 +92,9 @@ let menu =`
 
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
 
-`.trim(), menu, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
+
+`.trim(), menu, '▫️ 𝗠𝗘𝗡𝗨 𝟭𝟴 ▫️', `#labiblia`, '▪️ 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 ▪️', `#menuaudio`, '▫️ 𝗠𝗘𝗡𝗨 𝗔𝗟𝗠𝗔𝗖𝗘𝗡 ▫️', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menurandom|menuextras|Menurandom|Menuextras|menúrandom|menúextra|menúextras)$/i
 
