@@ -16,15 +16,16 @@ let menu =`
 ── ▪️ *INFORMACIÓN | MENÚS*
 
  ─🎖 𝗧𝗢𝗣𝗦
-_${usedPrefix}top10gays | topgay_
-_${usedPrefix}toplind@s | toplind@_
-_${usedPrefix}topput@s | toppt_
-_${usedPrefix}toppajer@s | toppajeros_
-_${usedPrefix}topotakus | toptakus_
-_${usedPrefix}top10integrantes_
-_${usedPrefix}top10shiposters | topshipost_
-_${usedPrefix}top10panafrescos_
-_${usedPrefix}top10lagrasa | top10grasa_
+ 
+• _${usedPrefix}top10gays | topgay_
+• _${usedPrefix}toplind@s | toplind@_
+• _${usedPrefix}topput@s | toppt_
+• _${usedPrefix}toppajer@s | toppajeros_
+• _${usedPrefix}topotakus | toptakus_
+• _${usedPrefix}top10integrantes_
+• _${usedPrefix}top10shiposters | topshipost_
+• _${usedPrefix}top10panafrescos_
+• _${usedPrefix}top10lagrasa | top10grasa_
 
  *JUEGOS*
 ─🧩 _${usedPrefix}math | mates | matemáticas *modo*_
