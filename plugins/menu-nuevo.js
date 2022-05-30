@@ -14,47 +14,47 @@ let menu =`
  ╌╌─── *Vélɑut* | *Bot* ───╌╌
  ‖ *¡Hola! ${username}* ♡
  ‖
- ‖ 𝐦. *MENÚ COMPLETO* ▫️
+ ── 𝐦. *MENÚ COMPLETO* ▫️
  ‖⇶ _${usedPrefix}menucompleto | mcompleto_
  ‖
- ‖ 𝐠. *MENÚ JUEGOS* ▫️
+ ── 𝐠. *MENÚ JUEGOS* ▫️
  ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
- ‖ 𝐝. *MENÚ DESCARGAS* ▫️
+ ── 𝐝. *MENÚ DESCARGAS* ▫️
  ‖⇶ _${usedPrefix}menudescarga | menudescargas_
  ‖
- ‖ 𝐬. *MENÚ GRUPOS* ▫️
+ ── 𝐬. *MENÚ GRUPOS* ▫️
  ‖⇶ _${usedPrefix}menugrupo | menugrupos_
  ‖
- ‖ 𝐜. *MENÚ CREACIÓN* ▫️
+ ── 𝐜. *MENÚ CREACIÓN* ▫️
  ‖⇶ _${usedPrefix}menucreador | menucreacion_
  ‖ 
- ‖ 𝐫. *MENÚ RANDOM* ▫️
+ ── 𝐫. *MENÚ RANDOM* ▫️
  ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
- ‖ 𝟏𝟖. *MENÚ +18* ▫️
+ ── 𝟏𝟖. *MENÚ +18* ▫️
  ‖⇶ _${usedPrefix}menu18 | labiblia_
  ‖
- ‖ 𝐚. *MENÚ AUDIOS* ▫️
+ ── 𝐚. *MENÚ AUDIOS* ▫️
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖ 𝐮. *MENÚ ALMACÉN* ▫️
+ ── 𝐮. *MENÚ ALMACÉN* ▫️
  ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
- ‖ 𝐧. *MENÚ ANÓNIMO* ▫️
+ ── 𝐧. *MENÚ ANÓNIMO* ▫️
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
- ‖ 𝐥. *MENÚ LOGOS* ▫️
+ ── 𝐥. *MENÚ LOGOS* ▫️
  ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
- ‖ 𝐈𝐈. *MENÚ PROPIETARIO* ▫️
+ ── 𝐈𝐈. *MENÚ PROPIETARIO* ▫️
  ‖⇶ _${usedPrefix}menupropietario_
  ‖
 ╌─╌─╌─╌─╌─╌─╌─
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-⠀⠀⠀𑁍'𝓈⠀⠀⠀ ݁ ⠀⠀⠀🦢⠀⠀﹐⠀⠀*Vélɑut BOT*.
-`.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
+⠀⠀⠀𑁍'𝓈⠀⠀⠀ ݁ ⠀⠀⠀🦢⠀⠀﹐⠀⠀─ 𝗩𝗘𝗟𝗔𝗨𝗧
+`.trim(), menu, '▫️ 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 ▫️', `#mcompleto`, '▪️ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 ▪️', `#menuinfobot`, '▫️ 𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 ▫️', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
