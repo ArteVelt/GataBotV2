@@ -347,7 +347,7 @@ let menu =`
 ┗━━━━━━━━━━━━━━━━━━┛
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-      ⠀⠀⠀⠀⠀⠀  🕊
+      ⠀⠀⠀⠀⠀⠀⠀⠀⠀  🕊
 `.trim(), menu, '𝗛𝗢𝗟𝗔 🕊', `Hola`, '▪️ 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 ▪️', `#menuaudios`, '▫️ 𝗠𝗘𝗡𝗨 𝗡𝗨𝗘𝗩𝗢 ▫️', `#menu`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(menucompleto|menúcompleto|completomemu|completomemú|mcompleto|Menucompleto|Mcompleto|Mnúcompleto)$/i
 module.exports = handler
