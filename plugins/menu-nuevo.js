@@ -11,41 +11,41 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
- ╌╌─── *Vélɑut* | *Bot* ───╌╌
+ ╌╌╌──── *Vélɑut* | *Bot* ────╌╌╌
   *¡Hola! ${username}* ♡
  
  ── ▪️ *MENÚ COMPLETO* 
-  _${usedPrefix}menucompleto | mcompleto_
+  ${usedPrefix}menucompleto | mcompleto
  
  ── ▪️ *MENÚ JUEGOS* 
-  _${usedPrefix}menujuego | menujuegos_
+  ${usedPrefix}menujuego | menujuegos
  
  ── ▪️ *MENÚ DESCARGAS* 
-  _${usedPrefix}menudescarga | menudescargas_
+  ${usedPrefix}menudescarga | menudescargas
  
  ── ▪️ *MENÚ GRUPOS* 
-  _${usedPrefix}menugrupo | menugrupos_
+  ${usedPrefix}menugrupo | menugrupos
  
  ── ▪️ *MENÚ CREACIÓN* 
-  _${usedPrefix}menucreador | menucreacion_
+  ${usedPrefix}menucreador | menucreacion
  
  ── ▪️ *MENÚ RANDOM* 
-  _${usedPrefix}menurandom | menuextras_
+  ${usedPrefix}menurandom | menuextras
  
  ── ▪️ *MENÚ +18* 
-  _${usedPrefix}menu18 | labiblia_
+  ${usedPrefix}menu18 | labiblia
  
  ── ▪️ *MENÚ AUDIOS* 
-  _${usedPrefix}menuaudio | menuaudios_
+  ${usedPrefix}menuaudio | menuaudios
  
  ── ▪️ *MENÚ ALMACÉN* 
-  _${usedPrefix}menucaja | menualmacen_
+  ${usedPrefix}menucaja | menualmacen
  
  ── ▪️ *MENÚ ANÓNIMO* 
-  _${usedPrefix}menuchat | menuanonimo_
+  ${usedPrefix}menuchat | menuanonimo
  
  ── ▪️ *MENÚ LOGOS* 
-  _${usedPrefix}menucrearlogos | mlogos_
+  ${usedPrefix}menucrearlogos | mlogos
  
  ── ▪️ *MENÚ PROPIETARIO* 
   ${usedPrefix}menupropietario
