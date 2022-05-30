@@ -11,55 +11,49 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
- ‖ ╌─ *Vélɑut* | *Bot* ─╌
- ‖ *¡Hola! ${username}* 
+ ‖ ╌╌─── *Vélɑut* | *Bot* ───╌╌
+ ‖ *¡Hola! ${username}* ♡
  ‖
- ‖ 𝐦 *_menú completo_* 
+ ‖ 𝐦 *_MENÚ COMPLETO_* 
  ‖⇶ _${usedPrefix}menucompleto | mcompleto_
  ‖
- ‖ 𝐢 *_información_* 
- ‖⇶ _${usedPrefix}menuinfobot | menuinfo_
- ‖
- ‖ 𝐠 *_juegos_* 
+ ‖ 𝐠 *_MENÚ JUEGOS_* 
  ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
- ‖ 𝐝 *_descargas_* 
+ ‖ 𝐝 *_MENÚ DESCARGAS_* 
  ‖⇶ _${usedPrefix}menudescarga | menudescargas_
  ‖
- ‖ 𝐬 *_grupo_* 
+ ‖ 𝐬 *_MENÚ GRUPOS_* 
  ‖⇶ _${usedPrefix}menugrupo | menugrupos_
  ‖
- ‖ 𝐜 *_crear_* 
+ ‖ 𝐜 *_MENÚ CREACIÓN_* 
  ‖⇶ _${usedPrefix}menucreador | menucreacion_
  ‖ 
- ‖ 𝐫 *_random_* 
+ ‖ 𝐫 *_MENÚ RANDOM_* 
  ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
- ‖ 𝟏𝟖 *_menú +18_* 
+ ‖ 𝟏𝟖 *_MENÚ +18_* 
  ‖⇶ _${usedPrefix}menu18 | labiblia_
  ‖
- ‖ 𝐚 *_audios_* 
+ ‖ 𝐚 *_MENÚ AUDIOS_* 
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖ 𝐮 *_almacenamiento_* 
+ ‖ 𝐮 *_MENÚ ALMACÉN_* 
  ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
- ‖ 𝐧 *_chat anónimo_* 
+ ‖ 𝐧 *_MENÚ ANÓNIMO_* 
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
- ‖ 𝐥 *_logos personalizados_* 
+ ‖ 𝐥 *_MENÚ LOGOS_* 
  ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
- ‖ 𝐈𝐈 *_propietario_* 
+ ‖ 𝐈𝐈 *_MENÚ PROPIETARIO_* 
  ‖⇶ _${usedPrefix}menupropietario_
- ‖
- ‖ 𝐛 *_cuentas del bot_* 
- ‖⇶ _${usedPrefix}cuentasgatabot | cuentasgb_
  ‖
 ╌─╌─╌─╌─╌─╌─╌─
 *Vélɑut Bot*`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+─ *VÉLAUT* | *BOT* ─
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
