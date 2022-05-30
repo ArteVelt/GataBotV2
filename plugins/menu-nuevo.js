@@ -53,7 +53,7 @@ let menu =`
 ╌─╌─╌─╌─╌─╌─╌─╌─╌─
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 🕊
+⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀ 🕊
 `.trim(), menu, '▫️ 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 ▫️', `#mcompleto`, '▪️ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 ▪️', `#menuinfobot`, '▫️ 𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 ▫️', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
