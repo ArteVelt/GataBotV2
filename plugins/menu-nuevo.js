@@ -11,49 +11,49 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
- ‖ ╌╌─── *Vélɑut* | *Bot* ───╌╌
+ ╌╌─── *Vélɑut* | *Bot* ───╌╌
  ‖ *¡Hola! ${username}* ♡
  ‖
- ‖ 𝐦 *_MENÚ COMPLETO_* 
+ ‖ 𝐦. *MENÚ COMPLETO* ▫️
  ‖⇶ _${usedPrefix}menucompleto | mcompleto_
  ‖
- ‖ 𝐠 *_MENÚ JUEGOS_* 
+ ‖ 𝐠. *MENÚ JUEGOS* ▫️
  ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
- ‖ 𝐝 *_MENÚ DESCARGAS_* 
+ ‖ 𝐝. *MENÚ DESCARGAS* ▫️
  ‖⇶ _${usedPrefix}menudescarga | menudescargas_
  ‖
- ‖ 𝐬 *_MENÚ GRUPOS_* 
+ ‖ 𝐬. *MENÚ GRUPOS* ▫️
  ‖⇶ _${usedPrefix}menugrupo | menugrupos_
  ‖
- ‖ 𝐜 *_MENÚ CREACIÓN_* 
+ ‖ 𝐜. *MENÚ CREACIÓN* ▫️
  ‖⇶ _${usedPrefix}menucreador | menucreacion_
  ‖ 
- ‖ 𝐫 *_MENÚ RANDOM_* 
+ ‖ 𝐫. *MENÚ RANDOM* ▫️
  ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
- ‖ 𝟏𝟖 *_MENÚ +18_* 
+ ‖ 𝟏𝟖. *MENÚ +18* ▫️
  ‖⇶ _${usedPrefix}menu18 | labiblia_
  ‖
- ‖ 𝐚 *_MENÚ AUDIOS_* 
+ ‖ 𝐚. *MENÚ AUDIOS* ▫️
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖ 𝐮 *_MENÚ ALMACÉN_* 
+ ‖ 𝐮. *MENÚ ALMACÉN* ▫️
  ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
- ‖ 𝐧 *_MENÚ ANÓNIMO_* 
+ ‖ 𝐧. *MENÚ ANÓNIMO* ▫️
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
- ‖ 𝐥 *_MENÚ LOGOS_* 
+ ‖ 𝐥. *MENÚ LOGOS* ▫️
  ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
- ‖ 𝐈𝐈 *_MENÚ PROPIETARIO_* 
+ ‖ 𝐈𝐈. *MENÚ PROPIETARIO* ▫️
  ‖⇶ _${usedPrefix}menupropietario_
  ‖
 ╌─╌─╌─╌─╌─╌─╌─
-*Vélɑut Bot*`.trim()
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
-─ *VÉLAUT* | *BOT* ─
+⠀⠀⠀𑁍'𝓈⠀⠀⠀ ݁ ⠀⠀⠀🦢⠀⠀﹐⠀⠀*Vélɑut BOT*.
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
