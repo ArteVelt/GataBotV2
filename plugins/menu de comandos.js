@@ -27,71 +27,72 @@ let menu =`
 ۰ _${usedPrefix}top10panafrescos_
 ۰ _${usedPrefix}top10lagrasa | top10grasa_
 
- *JUEGOS*
-─🧩 _${usedPrefix}math | mates | matemáticas *modo*_
-─👾 _${usedPrefix}ttt | tictactoe *nombre del la sala*_
-─🧩 _${usedPrefix}delttt *nombre del la sala*_
-─👾 _${usedPrefix}gay2 *@tag*_
-─👾 _${usedPrefix}gay2 *yo*_
-─🧩 _${usedPrefix}gay *@tag / nombre*_
-─👾 _${usedPrefix}lesbi *@tag / nombre*_
-─🧩 _${usedPrefix}pajero *@tag / nombre*_
-─👾 _${usedPrefix}pajera *@tag / nombre*_
-─🧩 _${usedPrefix}puta *@tag / nombre*_
-─👾 _${usedPrefix}puto *@tag / nombre*_
-─🧩 _${usedPrefix}rata *@tag / nombre*_
-─👾 _${usedPrefix}manco *@tag / nombre*_
-─🧩 _${usedPrefix}manca *@tag / nombre*_
-─👾 _${usedPrefix}formarpareja | pareja5_
-─🧩 _${usedPrefix}dado_
-─👾 _${usedPrefix}simsimi | simi | bot *texto*_
-─🧩 _${usedPrefix}formartrio_
-─👾 _${usedPrefix}love *@tag / nombre*_
-─🧩 _${usedPrefix}amigorandom | amigo | amistad_
-─👾 _${usedPrefix}slot *cantidad*_
-─🧩 _${usedPrefix}ppt *piedra / papel / tijera*_
-─👾 _${usedPrefix}prostituta *@tag / nombre*_
-─🧩 _${usedPrefix}prostituto *@tag / nombre*_
-─👾 _${usedPrefix}doxxear *@tag*_
-─🧩 _${usedPrefix}doxxeame_
+ ─🕹 𝗝𝗨𝗘𝗚𝗢𝗦 
+ 
+۰ _${usedPrefix}math | mates | matemáticas *modo*_
+۰ _${usedPrefix}ttt | tictactoe *nombre del la sala*_
+۰ _${usedPrefix}delttt *nombre del la sala*_
+۰ _${usedPrefix}gay2 *@tag*_
+۰ _${usedPrefix}gay2 *yo*_
+۰ _${usedPrefix}gay *@tag / nombre*_
+۰ _${usedPrefix}lesbi *@tag / nombre*_
+۰ _${usedPrefix}pajero *@tag / nombre*_
+۰ _${usedPrefix}pajera *@tag / nombre*_
+۰ _${usedPrefix}puta *@tag / nombre*_
+۰ _${usedPrefix}puto *@tag / nombre*_
+۰ _${usedPrefix}rata *@tag / nombre*_
+۰ _${usedPrefix}manco *@tag / nombre*_
+۰ _${usedPrefix}manca *@tag / nombre*_
+۰ _${usedPrefix}formarpareja | pareja5_
+۰ _${usedPrefix}dado_
+۰ _${usedPrefix}simsimi | simi | bot *texto*_
+۰ _${usedPrefix}formartrio_
+۰ _${usedPrefix}love *@tag / nombre*_
+۰ _${usedPrefix}amigorandom | amigo | amistad_
+۰ _${usedPrefix}slot *cantidad*_
+۰ _${usedPrefix}ppt *piedra / papel / tijera*_
+۰ _${usedPrefix}prostituta *@tag / nombre*_
+۰ _${usedPrefix}prostituto *@tag / nombre*_
+۰ _${usedPrefix}doxxear *@tag*_
+۰ _${usedPrefix}doxxeame_
 
  *CONVERSA CON EL BOT*
-─ *Puedes dirigirte tambien como* 
-─ *(simi|bixby|siri|cortana|alexa)*
-─🕊 _${usedPrefix}bot *texto*_
+─ *Puedes dirigirte también como* 
+─ *(simi | siri | cortana | alexa)*
+۰ 🕊 _${usedPrefix}bot *texto*_
 
- *DESCARGAS*
-─❄️ _${usedPrefix}imagen | image | gimage *texto*_
-─☀️ _${usedPrefix}ytsearch *texto*_
-─❄️ _${usedPrefix}dlaudio *link yt*_
-─☀️ _${usedPrefix}dlvid *link yt*_
-─❄️ _${usedPrefix}ytmp3 *link yt*_
-─☀️ _${usedPrefix}ytmp4 *link yt*_
-─❄️ _${usedPrefix}play *titulo del audio*_
-─☀️ _${usedPrefix}play.1 *titulo del audio*_
-─❄️ _${usedPrefix}play.2 *titulo del video*_
-─☀️ _${usedPrefix}play2 *titulo del video*_
-─❄️ _${usedPrefix}play3 *titulo del audio/video*_
-─☀️ _${usedPrefix}play6 *artista y titulo*_
-─❄️ _${usedPrefix}letra *nombredelacanción*_
-─☀️ _${usedPrefix}google *texto*_
-─❄️ _${usedPrefix}googlef *texto*_
-─☀️ _${usedPrefix}pinterestvideo | pintvid *link*_
-─❄️ _${usedPrefix}tiktokaudio *link del tiktok*_
-─☀️ _${usedPrefix}tiktok | tiktokdl *link*_
-─❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
-─☀️ _${usedPrefix}acortar | reducir *link*_
-─❄️ _${usedPrefix}pinterest | pinterest2 *texto*_
-─☀️ _${usedPrefix}ssweb | capturar | captura *link*_
-─❄️ _${usedPrefix}animeinfo *nombre del anime*_
-─☀️ _${usedPrefix}wpanime | fondoanime_
-─❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
-─☀️ _${usedPrefix}ighistorias|historiasig *usuario*_
-─❄️ _${usedPrefix}twittervideo | twvid *link de twitter*_
-─☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
-─❄️ _${usedPrefix}spotify | spotimusica *autor, cancion*_
-─☀️ _${usedPrefix}frase *escriba un número (1 - 99)*_
-─❄️ _${usedPrefix}wpaesthetic | fondoaesthetic_
+ ─📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦
+۰ _${usedPrefix}imagen | image | gimage *texto*_
+۰ _${usedPrefix}ytsearch *texto*_
+۰ _${usedPrefix}dlaudio *link yt*_
+۰ _${usedPrefix}dlvid *link yt*_
+۰ _${usedPrefix}ytmp3 *link yt*_
+۰ _${usedPrefix}ytmp4 *link yt*_
+۰ _${usedPrefix}play *titulo del audio*_
+۰ _${usedPrefix}play.1 *titulo del audio*_
+۰ _${usedPrefix}play.2 *titulo del video*_
+۰ _${usedPrefix}play2 *titulo del video*_
+۰ _${usedPrefix}play3 *titulo del audio/video*_
+۰ _${usedPrefix}play6 *artista y titulo*_
+۰ _${usedPrefix}letra *nombredelacanción*_
+۰ _${usedPrefix}google *texto*_
+۰ _${usedPrefix}googlef *texto*_
+۰ _${usedPrefix}pinterestvideo | pintvid *link*_
+۰ _${usedPrefix}tiktokaudio *link del tiktok*_
+۰ _${usedPrefix}tiktok | tiktokdl *link*_
+۰ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
+۰ _${usedPrefix}acortar | reducir *link*_
+۰ _${usedPrefix}pinterest | pinterest2 *texto*_
+۰ _${usedPrefix}ssweb | capturar | captura *link*_
+۰ _${usedPrefix}animeinfo *nombre del anime*_
+۰ _${usedPrefix}wpanime | fondoanime_
+۰ _${usedPrefix}verinstagram | verig |igver *usuario*_
+۰ _${usedPrefix}ighistorias|historiasig *usuario*_
+۰ _${usedPrefix}twittervideo | twvid *link de twitter*_
+۰ _${usedPrefix}wikipedia | wiki | internet *texto*_
+۰ _${usedPrefix}spotify | spotimusica *autor, cancion*_
+۰ _${usedPrefix}frase *escriba un número (1 - 99)*_
+۰ _${usedPrefix}wpaesthetic | fondoaesthetic_
 
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 
