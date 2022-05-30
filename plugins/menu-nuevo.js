@@ -11,55 +11,53 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
+ ‖ ╌─ *Vélɑut* | *Bot* ─╌
+ ‖ *¡Hola! ${username}* 
  ‖
- ‖ Ⓜ️ *_MENÚ COMPLETO_* Ⓜ️
+ ‖ 𝐦 *_menú completo_* 
  ‖⇶ _${usedPrefix}menucompleto | mcompleto_
  ‖
- ‖ 🔖 *_INFORMACIÓN DEL MENÚ_* 🔖
+ ‖ 𝐢 *_información_* 
  ‖⇶ _${usedPrefix}menuinfobot | menuinfo_
  ‖
- ‖ 🎮 *_MENÚ DE JUEGOS_* 🎮
+ ‖ 𝐠 *_juegos_* 
  ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
- ‖ 🚀 *_MENÚ DE DESCARGAS_* 🚀
+ ‖ 𝐝 *_descargas_* 
  ‖⇶ _${usedPrefix}menudescarga | menudescargas_
  ‖
- ‖ 🔐 *_GESTIÓN DE GRUPO_* 🔐
+ ‖ 𝐬 *_grupo_* 
  ‖⇶ _${usedPrefix}menugrupo | menugrupos_
  ‖
- ‖ 🎨 *_MENÚ DE CREACIÓN_* 🎨
+ ‖ 𝐜 *_crear_* 
  ‖⇶ _${usedPrefix}menucreador | menucreacion_
  ‖ 
- ‖ 🪅 *_ANIME/RANDOMS_* 🪅
+ ‖ 𝐫 *_random_* 
  ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
- ‖ 🔞 *_MENÚ +18_* 🔞
+ ‖ 𝟏𝟖 *_menú +18_* 
  ‖⇶ _${usedPrefix}menu18 | labiblia_
  ‖
- ‖ 🔊 *_MENÚ DE AUDIOS_* 🔊
+ ‖ 𝐚 *_audios_* 
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖ 📦 *_MENÚ CAJA ALMACENAMIENTO_* 📦
+ ‖ 𝐮 *_almacenamiento_* 
  ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
- ‖ 👤 *_MENÚ CHAT ANÓNIMO_* 👤
+ ‖ 𝐧 *_chat anónimo_* 
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
- ‖ 💮 *_MENÚ LOGOS PERSONALIZADO_* 💮
+ ‖ 𝐥 *_logos personalizados_* 
  ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
- ‖ 💎 *_MENU PARA PROPIETARIO/A_* 💎
+ ‖ 𝐈𝐈 *_propietario_* 
  ‖⇶ _${usedPrefix}menupropietario_
  ‖
- ‖ ✅ *_CUENTAS OFICIALES GATABOT_* ✅
+ ‖ 𝐛 *_cuentas del bot_* 
  ‖⇶ _${usedPrefix}cuentasgatabot | cuentasgb_
  ‖
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╌─╌─╌─╌─╌─╌─╌─
+*Vélɑut Bot*`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
 ⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
