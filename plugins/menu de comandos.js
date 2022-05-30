@@ -162,7 +162,7 @@ let menu =`
  ─ ۰ _${usedPrefix}estilo *texto*_
 └──────────────────┘
 
-✉ *SUBIR ESTADOS A GATABOT*
+✉ *SUBIR ESTADOS A VÉLAUT BOT*
 ┌──────────────────┐
  *¡Sube estados a la cuenta de GataBot!*
  ─ ۰ _${usedPrefix}subirestado *texto / video|imagen*_
