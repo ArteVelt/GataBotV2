@@ -11,7 +11,7 @@ let username = conn.getName(who)
 let kai = 'https://i.imgur.com/8fK4h6F.jpg' 
 let vn = './media/menugatabot.mp3'
 let menu =`
- ╌╌╌──── *Vélɑut* | *Bot* ────╌╌╌
+ ╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
   *¡Hola! ${username}* ♡
  
  ── ▪️ *MENÚ COMPLETO* 
