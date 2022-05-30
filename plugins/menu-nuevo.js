@@ -12,44 +12,44 @@ let kai = 'https://i.imgur.com/8fK4h6F.jpg'
 let vn = './media/menugatabot.mp3'
 let menu =`
  ╌╌─── *Vélɑut* | *Bot* ───╌╌
- ‖ *¡Hola! ${username}* ♡
- ‖
+  *¡Hola! ${username}* ♡
+ 
  ── 𝐦. *MENÚ COMPLETO* ▫️
- ‖⇶ _${usedPrefix}menucompleto | mcompleto_
- ‖
+ ⇶ _${usedPrefix}menucompleto | mcompleto_
+ 
  ── 𝐠. *MENÚ JUEGOS* ▫️
- ‖⇶ _${usedPrefix}menujuego | menujuegos_
- ‖ 
+ ⇶ _${usedPrefix}menujuego | menujuegos_
+ 
  ── 𝐝. *MENÚ DESCARGAS* ▫️
- ‖⇶ _${usedPrefix}menudescarga | menudescargas_
- ‖
+ ⇶ _${usedPrefix}menudescarga | menudescargas_
+ 
  ── 𝐬. *MENÚ GRUPOS* ▫️
- ‖⇶ _${usedPrefix}menugrupo | menugrupos_
- ‖
+ ⇶ _${usedPrefix}menugrupo | menugrupos_
+ 
  ── 𝐜. *MENÚ CREACIÓN* ▫️
- ‖⇶ _${usedPrefix}menucreador | menucreacion_
- ‖ 
+ ⇶ _${usedPrefix}menucreador | menucreacion_
+ 
  ── 𝐫. *MENÚ RANDOM* ▫️
- ‖⇶ _${usedPrefix}menurandom | menuextras_
- ‖
+ ⇶ _${usedPrefix}menurandom | menuextras_
+ 
  ── 𝟏𝟖. *MENÚ +18* ▫️
- ‖⇶ _${usedPrefix}menu18 | labiblia_
- ‖
+ ⇶ _${usedPrefix}menu18 | labiblia_
+ 
  ── 𝐚. *MENÚ AUDIOS* ▫️
- ‖⇶ _${usedPrefix}menuaudio | menuaudios_
- ‖ 
+ ⇶ _${usedPrefix}menuaudio | menuaudios_
+ 
  ── 𝐮. *MENÚ ALMACÉN* ▫️
- ‖⇶ _${usedPrefix}menucaja | menualmacen_
- ‖
+ ⇶ _${usedPrefix}menucaja | menualmacen_
+ 
  ── 𝐧. *MENÚ ANÓNIMO* ▫️
- ‖⇶ _${usedPrefix}menuchat | menuanonimo_
- ‖
+ ⇶ _${usedPrefix}menuchat | menuanonimo_
+ 
  ── 𝐥. *MENÚ LOGOS* ▫️
- ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
- ‖ 
+ ⇶ _${usedPrefix}menucrearlogos | mlogos_
+ 
  ── 𝐈𝐈. *MENÚ PROPIETARIO* ▫️
- ‖⇶ _${usedPrefix}menupropietario_
- ‖
+ ⇶ _${usedPrefix}menupropietario_
+ 
 ╌─╌─╌─╌─╌─╌─╌─
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
