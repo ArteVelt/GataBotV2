@@ -57,11 +57,11 @@ let menu =`
  ─ ۰ _${usedPrefix}amigorandom | amigo | amistad_
  ─ ۰ _${usedPrefix}slot *cantidad*_
  ─ ۰ _${usedPrefix}ppt *piedra / papel / tijera*_
-  ─ ۰ _${usedPrefix}prostituta *@tag / nombre*_
-  ─ ۰ _${usedPrefix}prostituto *@tag / nombre*_
-  ─ ۰ _${usedPrefix}doxxear *@tag*_
-  ─ ۰ _${usedPrefix}doxxeame_
- └──────────────────┘
+ ─ ۰ _${usedPrefix}prostituta *@tag / nombre*_
+ ─ ۰ _${usedPrefix}prostituto *@tag / nombre*_
+ ─ ۰ _${usedPrefix}doxxear *@tag*_
+ ─ ۰ _${usedPrefix}doxxeame_
+└──────────────────┘
 
 `.trim()
 
