@@ -14,40 +14,40 @@ let menu =`
  ╌╌─── *Vélɑut* | *Bot* ───╌╌
   *¡Hola! ${username}* ♡
  
- ── 𝐦. *MENÚ COMPLETO* ▫️
+ ── ▪️ *MENÚ COMPLETO* 
   _${usedPrefix}menucompleto | mcompleto_
  
- ── 𝐠. *MENÚ JUEGOS* ▫️
+ ── ▪️ *MENÚ JUEGOS* 
   _${usedPrefix}menujuego | menujuegos_
  
- ── 𝐝. *MENÚ DESCARGAS* ▫️
+ ── ▪️ *MENÚ DESCARGAS* 
   _${usedPrefix}menudescarga | menudescargas_
  
- ── 𝐬. *MENÚ GRUPOS* ▫️
+ ── ▪️ *MENÚ GRUPOS* 
   _${usedPrefix}menugrupo | menugrupos_
  
- ── 𝐜. *MENÚ CREACIÓN* ▫️
+ ── ▪️ *MENÚ CREACIÓN* 
   _${usedPrefix}menucreador | menucreacion_
  
- ── 𝐫. *MENÚ RANDOM* ▫️
+ ── ▪️ *MENÚ RANDOM* 
   _${usedPrefix}menurandom | menuextras_
  
- ── 𝟏𝟖. *MENÚ +18* ▫️
+ ── ▪️ *MENÚ +18* 
   _${usedPrefix}menu18 | labiblia_
  
- ── 𝐚. *MENÚ AUDIOS* ▫️
+ ── ▪️ *MENÚ AUDIOS* 
   _${usedPrefix}menuaudio | menuaudios_
  
- ── 𝐮. *MENÚ ALMACÉN* ▫️
+ ── ▪️ *MENÚ ALMACÉN* 
   _${usedPrefix}menucaja | menualmacen_
  
- ── 𝐧. *MENÚ ANÓNIMO* ▫️
+ ── ▪️ *MENÚ ANÓNIMO* 
   _${usedPrefix}menuchat | menuanonimo_
  
- ── 𝐥. *MENÚ LOGOS* ▫️
+ ── ▪️ *MENÚ LOGOS* 
   _${usedPrefix}menucrearlogos | mlogos_
  
- ── 𝐈𝐈. *MENÚ PROPIETARIO* ▫️
+ ── ▪️ *MENÚ PROPIETARIO* 
   _${usedPrefix}menupropietario_
  
 ╌─╌─╌─╌─╌─╌─╌─
