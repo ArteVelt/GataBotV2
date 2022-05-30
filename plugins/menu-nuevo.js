@@ -48,9 +48,9 @@ let menu =`
   _${usedPrefix}menucrearlogos | mlogos_
  
  ── ▪️ *MENÚ PROPIETARIO* 
-  _${usedPrefix}menupropietario_
+  ${usedPrefix}menupropietario
  
-╌─╌─╌─╌─╌─╌─╌─
+╌─╌─╌─╌─╌─╌─╌─╌─╌─
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(kai)).buffer(), `
 ⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 🕊
