@@ -20,13 +20,13 @@ let menu =`
  ┌──────────────────┐
   ─ ۰ _${usedPrefix}top10gays | topgay_
   ─ ۰ _${usedPrefix}toplind@s | toplind@_
-۰ _${usedPrefix}topput@s | toppt_
-۰ _${usedPrefix}toppajer@s | toppajeros_
-۰ _${usedPrefix}topotakus | toptakus_
-۰ _${usedPrefix}top10integrantes_
-۰ _${usedPrefix}top10shiposters | topshipost_
-۰ _${usedPrefix}top10panafrescos_
-۰ _${usedPrefix}top10lagrasa | top10grasa_
+  ─ ۰ _${usedPrefix}topput@s | toppt_
+  ─ ۰ _${usedPrefix}toppajer@s | toppajeros_
+  ─ ۰ _${usedPrefix}topotakus | toptakus_
+  ─ ۰ _${usedPrefix}top10integrantes_
+  ─ ۰ _${usedPrefix}top10shiposters | topshipost_
+  ─ ۰ _${usedPrefix}top10panafrescos_
+  ─ ۰ _${usedPrefix}top10lagrasa | top10grasa_
 └──────────────────┘
 
  ─🕹 𝗝𝗨𝗘𝗚𝗢𝗦 
