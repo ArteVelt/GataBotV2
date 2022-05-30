@@ -325,18 +325,18 @@ let menu =`
  ─ ۰ _${usedPrefix}bcbot *texto*_
  ─ ۰ _${usedPrefix}setbye *@tag*_
  ─ ۰ _${usedPrefix}banuser *@tag*_
-─ ۰ _${usedPrefix}enable *public*_
-┣ ↠👑 _${usedPrefix}disable *public*_
-┣ ↠💎 _${usedPrefix}unbanuser *@tag*_
-┣ ↠👑 _${usedPrefix}listgroup_
-┣ ↠💎 _${usedPrefix}enable *restrict*_
-┣ ↠👑 _${usedPrefix}enable *autoread*_
-┣ ↠💎 _${usedPrefix}setwelcome *@tag*_
-┣ ↠👑 _${usedPrefix}enable *autoread*_
-┣ ↠💎 _${usedPrefix}disable *autoread*_
-┣ ↠👑 _${usedPrefix}bcbot *texto*_
-┣ ↠💎 _${usedPrefix}bcgc *texto*_
-┗━━━━━━━━━━━━━━━━━━┛
+ ─ ۰ _${usedPrefix}enable *public*_
+ ─ ۰ _${usedPrefix}disable *public*_
+ ─ ۰ _${usedPrefix}unbanuser *@tag*_
+ ─ ۰ _${usedPrefix}listgroup_
+ ─ ۰ _${usedPrefix}enable *restrict*_
+ ─ ۰ _${usedPrefix}enable *autoread*_
+ ─ ۰ _${usedPrefix}setwelcome *@tag*_
+ ─ ۰ _${usedPrefix}enable *autoread*_
+ ─ ۰ _${usedPrefix}disable *autoread*_
+ ─ ۰ _${usedPrefix}bcbot *texto*_
+ ─ ۰ _${usedPrefix}bcgc *texto*_
+└──────────────────┘
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  🕊
