@@ -10,74 +10,74 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =` 
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
- ‖
- ‖⇛ 🪅 _${usedPrefix}pubg_
- ‖⇛ 🪅 _${usedPrefix}doraemon_
- ‖⇛ 🪅 _${usedPrefix}jeni_
- ‖⇛ 🪅 _${usedPrefix}jisoo_
- ‖⇛ 🪅 _${usedPrefix}rose_
- ‖⇛ 🪅 _${usedPrefix}wpmontaña | fondomontaña_
- ‖⇛ 🪅 _${usedPrefix}wpgaming | fondogaming_
- ‖⇛ 🪅 _${usedPrefix}randomwallpaper_
- ‖⇛ 🪅 _${usedPrefix}compartirfoto_
- ‖⇛ 🪅 _${usedPrefix}futbol_
- ‖⇛ 🪅 _${usedPrefix}Messi_
- ‖⇛ 🪅 _${usedPrefix}animal_
- ‖⇛ 🪅 _${usedPrefix}meme_
- ‖⇛ 🪅 _${usedPrefix}meme2_
- ‖⇛ 🪅 _${usedPrefix}meme3_
- ‖⇛ 🪅 _${usedPrefix}cat | gato | gata_
- ‖⇛ 🪅 _${usedPrefix}dog | perro | perra_
- ‖⇛ 🪅 _${usedPrefix}pikachu_
- ‖⇛ 🪅 _${usedPrefix}waifu_
- ‖⇛ 🪅 _${usedPrefix}blackpink_
- ‖⇛ 🪅 _${usedPrefix}reto_
- ‖⇛ 🪅 _${usedPrefix}verdad_
- ‖⇛ 🪅 _${usedPrefix}imagenrandom | random | epico_
- ‖⇛ 🪅 _${usedPrefix}neko_
- ‖⇛ 🪅 _${usedPrefix}lolivid_
- ‖⇛ 🪅 _${usedPrefix}iqtest | iq | inteligencia_
- ‖⇛ 🪅 _${usedPrefix}kpopitzy_
- ‖⇛ 🪅 _${usedPrefix}navidad_
- ‖⇛ 🪅 _${usedPrefix}loli_
- ‖⇛ 🪅 _${usedPrefix}gawrgura_
- ‖⇛ 🪅 _${usedPrefix}miku_
- ‖⇛ 🪅 _${usedPrefix}nyan_
- ‖⇛ 🪅 _${usedPrefix}pasticker_
- ‖⇛ 🪅 _${usedPrefix}itachi_
- ‖⇛ 🪅 _${usedPrefix}slap_
- ‖⇛ 🪅 _${usedPrefix}pat_
- ‖⇛ 🪅 _${usedPrefix}perfil_
- ‖⇛ 🪅 _${usedPrefix}scan | datos | escaneo_
- ‖⇛ 🪅 _${usedPrefix}kpop_
- ‖⇛ 🪅 _${usedPrefix}qr *texto*_
- ‖⇛ 🪅 _${usedPrefix}afk | aviso | informo *motivo*_
- ‖⇛ 🪅 _${usedPrefix}CristianoRonaldo_
- ‖⇛ 🪅 _${usedPrefix}pregunta *pregunta*_
- ‖⇛ 🪅 _${usedPrefix}mention | mensaje *texto*_
- ‖⇛ 🪅 _${usedPrefix}spamchat *texto*_
- ‖⇛ 🪅 _${usedPrefix}traducir es *texto*_
- ‖⇛ 🪅 _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
- ‖⇛ 🪅 _${usedPrefix}readmore | leermas *texto1| texto2*_
- ‖⇛ 🪅 _${usedPrefix}calc | calculadora *expresión mat.*_ 
- ‖⇛ 🪅 _${usedPrefix}spamwa *numero|texto|cantidad*_
- ‖⇛ 🪅 _${usedPrefix}readqr *responde a un código QR*_
- ‖⇛ 🪅 _${usedPrefix}anime *random / waifu / husbu /neko*_
- ‖⇛ 🪅 _${usedPrefix}agendar *@tag + nombre contacto*_
- ‖⇛ 🪅 _${usedPrefix}guardar *@tag + nombre contacto*_
- ‖⇛ 🪅 _${usedPrefix}spam *numero|texto|cantidad*_ 
- ‖⇛ 🪅 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
- ‖⇛ 🪅 _${usedPrefix}experiencia | exp_
- ‖ ➥ ⧼ *_MENÚ ANIME/RANDOM_* ⧽  
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+
+ ╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+ *¡Hola! ${username}* ♡
+ 
+ ▪️ 𝗠𝗘𝗡𝗨 𝗥𝗔𝗡𝗗𝗢𝗠
+ ┌──────────────────┐
+  ─ ۰ _${usedPrefix}pubg_
+  ─ ۰ _${usedPrefix}doraemon_
+  ─ ۰ _${usedPrefix}jeni_
+  ─ ۰ _${usedPrefix}jisoo_
+  ─ ۰ _${usedPrefix}rose_
+  ─ ۰ _${usedPrefix}wpmontaña | fondomontaña_
+  ─ ۰ _${usedPrefix}wpgaming | fondogaming_
+  ─ ۰ _${usedPrefix}randomwallpaper_
+  ─ ۰ _${usedPrefix}compartirfoto_
+  ─ ۰ _${usedPrefix}futbol_
+  ─ ۰ _${usedPrefix}Messi_
+  ─ ۰ _${usedPrefix}animal_
+  ─ ۰ _${usedPrefix}meme_
+  ─ ۰ _${usedPrefix}meme2_
+  ─ ۰ _${usedPrefix}meme3_
+  ─ ۰ _${usedPrefix}cat | gato | gata_
+  ─ ۰ _${usedPrefix}dog | perro | perra_
+  ─ ۰ _${usedPrefix}pikachu_
+  ─ ۰ _${usedPrefix}waifu_
+  ─ ۰ _${usedPrefix}blackpink_
+  ─ ۰ _${usedPrefix}reto_
+  ─ ۰ _${usedPrefix}verdad_
+  ─ ۰ _${usedPrefix}imagenrandom | random | epico_
+  ─ ۰ _${usedPrefix}neko_
+  ─ ۰ _${usedPrefix}lolivid_
+  ─ ۰ _${usedPrefix}iqtest | iq | inteligencia_
+  ─ ۰ _${usedPrefix}kpopitzy_
+  ─ ۰ _${usedPrefix}navidad_
+  ─ ۰ _${usedPrefix}loli_
+  ─ ۰ _${usedPrefix}gawrgura_
+  ─ ۰ _${usedPrefix}miku_
+  ─ ۰ _${usedPrefix}nyan_
+  ─ ۰ _${usedPrefix}pasticker_
+  ─ ۰ _${usedPrefix}itachi_
+  ─ ۰ _${usedPrefix}slap_
+  ─ ۰ _${usedPrefix}pat_
+  ─ ۰ _${usedPrefix}perfil_
+  ─ ۰ _${usedPrefix}scan | datos | escaneo_
+  ─ ۰ _${usedPrefix}kpop_
+  ─ ۰ _${usedPrefix}qr *texto*_
+  ─ ۰ _${usedPrefix}afk | aviso | informo *motivo*_
+  ─ ۰ _${usedPrefix}CristianoRonaldo_
+  ─ ۰ _${usedPrefix}pregunta *pregunta*_
+  ─ ۰ _${usedPrefix}mention | mensaje *texto*_
+  ─ ۰ _${usedPrefix}spamchat *texto*_
+  ─ ۰ _${usedPrefix}traducir es *texto*_
+  ─ ۰ _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
+  ─ ۰ _${usedPrefix}readmore | leermas *texto1| texto2*_
+  ─ ۰ _${usedPrefix}calc | calculadora *expresión mat.*_ 
+  ─ ۰ _${usedPrefix}spamwa *numero|texto|cantidad*_
+  ─ ۰ _${usedPrefix}readqr *responde a un código QR*_
+  ─ ۰ _${usedPrefix}anime *random / waifu / husbu /neko*_
+  ─ ۰ _${usedPrefix}agendar *@tag + nombre contacto*_
+  ─ ۰ _${usedPrefix}guardar *@tag + nombre contacto*_
+  ─ ۰ _${usedPrefix}spam *numero|texto|cantidad*_ 
+  ─ ۰ _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+  ─ ۰ _${usedPrefix}experiencia | exp_
+ └──────────────────┘
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
-`.trim(), menu, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
+
+`.trim(), menu, '▪️ 𝗠𝗘𝗡𝗨 𝟭𝟴 ▪️', `#labiblia`, '▫️ 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 ▫️', `#menuaudio`, '▪️ 𝗠𝗘𝗡𝗨 𝗔𝗟𝗠𝗔𝗖𝗘𝗡 ▪️', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menurandom|menuextras|Menurandom|Menuextras|menúrandom|menúextra|menúextras)$/i
 module.exports = handler
