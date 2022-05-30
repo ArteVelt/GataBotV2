@@ -40,9 +40,9 @@ let menu =`
   ─ ۰ _Codigos para audios_
   ─ ۰ _Términos y condiciones_
  └──────────────────┘
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⠀⠀⠀⠀⠀⠀   ⠀   🕊
 `.trim(), menu, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, '🚀 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎 🚀', `#menudescarga`, '🔐 𝙂𝙀𝙎𝙏𝙄𝙊𝙉 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 🔐', `#menugrupo`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menuinfobot|menuinfo|infomenu|menúinfobot|menúinfo)$/i
