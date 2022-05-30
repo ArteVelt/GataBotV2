@@ -18,8 +18,8 @@ let menu =`
  ─🎖 𝗧𝗢𝗣𝗦
  
  ┌──────────────────┐
-۰ _${usedPrefix}top10gays | topgay_
-۰ _${usedPrefix}toplind@s | toplind@_
+  ─ ۰ _${usedPrefix}top10gays | topgay_
+  ─ ۰ _${usedPrefix}toplind@s | toplind@_
 ۰ _${usedPrefix}topput@s | toppt_
 ۰ _${usedPrefix}toppajer@s | toppajeros_
 ۰ _${usedPrefix}topotakus | toptakus_
