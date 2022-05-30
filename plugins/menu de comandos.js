@@ -128,217 +128,204 @@ let menu =`
  ─ ۰ _${usedPrefix}banchat_
  ─ ۰ _${usedPrefix}unbanchat_
 └──────────────────┘
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CREADORES*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎨 _${usedPrefix}s_
-┣ ↠🎨 _${usedPrefix}sticker_
-┣ ↠🎨 _${usedPrefix}semoji | emoji_
-┣ ↠🎨 _${usedPrefix}emojimix 🐱+😼_
-┣ ↠🎨 _${usedPrefix}wasted_
-┣ ↠🎨 _${usedPrefix}stonks_
-┣ ↠🎨 _${usedPrefix}trash *Responda a una foto*_
-┣ ↠🎨 _${usedPrefix}sgay *Responda a una foto*_
-┣ ↠🎨 _${usedPrefix}circle *Responda a una foto*_
-┣ ↠🎨 _${usedPrefix}stickermaker_
-┣ ↠🎨 _${usedPrefix}attp *texto*_
-┣ ↠🎨 _${usedPrefix}attp2 | s1 | sa *texto*_
-┣ ↠🎨 _${usedPrefix}stickerfilter | cs2_
-┣ ↠🎨 _${usedPrefix}tomp3 | mp3 *responde a un video*_
-┣ ↠🎨 _${usedPrefix}toimg | img *responde a un sticker*_
-┣ ↠🎨 _${usedPrefix}togif | gif *responde a sticker/video*_
-┣ ↠🎨 _${usedPrefix}ytcomentario | ytcomentar *texto*_
-┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
-┣ ↠🎨 _${usedPrefix}jaal *Responda a una foto*_
-┣ ↠🎨 _${usedPrefix}swm *imagen | video | gif*_
-┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
-┣ ↠🎨 _${usedPrefix}wanted *Responda a una foto*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *ESTILOS DE TEXTOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *¡Una gran variedad de estilos de textos!*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🪄 _${usedPrefix}style *texto*_
-┣ ↠🪄 _${usedPrefix}estilo *texto*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *SUBIR ESTADOS A GATABOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *¡Sube estados a la cuenta de GataBot!*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠📸 _${usedPrefix}subirestado *texto / video|imagen*_
-┣ ↠📸 _${usedPrefix}subirestado *texto / gif*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *RANDOM|EXTRAS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎳 _${usedPrefix}pubg_
-┣ ↠🎯 _${usedPrefix}doraemon_
-┣ ↠🎲 _${usedPrefix}jeni_
-┣ ↠🎳 _${usedPrefix}jisoo_
-┣ ↠🎯 _${usedPrefix}rose_
-┣ ↠🎲 _${usedPrefix}wpmontaña | fondomontaña_
-┣ ↠🎳 _${usedPrefix}wpgaming | fondogaming_
-┣ ↠🎯 _${usedPrefix}randomwallpaper_
-┣ ↠🎲 _${usedPrefix}compartirfoto_
-┣ ↠🎳 _${usedPrefix}futbol_
-┣ ↠🎯 _${usedPrefix}Messi_
-┣ ↠🎲 _${usedPrefix}animal_
-┣ ↠🎳 _${usedPrefix}meme_
-┣ ↠🎯 _${usedPrefix}meme2_
-┣ ↠🎲 _${usedPrefix}meme3_
-┣ ↠🎳 _${usedPrefix}cat | gato | gata_
-┣ ↠🎯 _${usedPrefix}dog | perro | perra_
-┣ ↠🎲 _${usedPrefix}pikachu_
-┣ ↠🎳 _${usedPrefix}waifu_
-┣ ↠🎯 _${usedPrefix}blackpink_
-┣ ↠🎲 _${usedPrefix}reto_
-┣ ↠🎳 _${usedPrefix}verdad_
-┣ ↠🎯 _${usedPrefix}imagenrandom | random | epico_
-┣ ↠🎲 _${usedPrefix}neko_
-┣ ↠🎳 _${usedPrefix}lolivid_
-┣ ↠🎯 _${usedPrefix}iqtest | iq | inteligencia_
-┣ ↠🎲 _${usedPrefix}kpopitzy_
-┣ ↠🎳 _${usedPrefix}navidad_
-┣ ↠🎯 _${usedPrefix}loli_
-┣ ↠🎲 _${usedPrefix}gawrgura_
-┣ ↠🎳 _${usedPrefix}miku_
-┣ ↠🎯 _${usedPrefix}nyan_
-┣ ↠🎲 _${usedPrefix}pat_
-┣ ↠🎳 _${usedPrefix}itachi_
-┣ ↠🎯 _${usedPrefix}slap_
-┣ ↠🎲 _${usedPrefix}pasticker_
-┣ ↠🎳 _${usedPrefix}perfil_
-┣ ↠🎯 _${usedPrefix}scan | datos | escaneo_
-┣ ↠🎲 _${usedPrefix}kpop_
-┣ ↠🎳 _${usedPrefix}qr *texto*_
-┣ ↠🎯 _${usedPrefix}afk | aviso | informo *motivo*_
-┣ ↠🎲 _${usedPrefix}CristianoRonaldo_
-┣ ↠🎳 _${usedPrefix}pregunta *pregunta*_
-┣ ↠🎯 _${usedPrefix}mention | mensaje *texto*_
-┣ ↠🎲 _${usedPrefix}spamchat *texto*_
-┣ ↠🎳 _${usedPrefix}traducir es *texto*_
-┣ ↠🎯 _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
-┣ ↠🎲 _${usedPrefix}readmore | leermas *texto1| texto2*_
-┣ ↠🎳 _${usedPrefix}calc | calculadora *expresión mat.*_ 
-┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
-┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
-┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}agendar *@tag + nombre contacto*_
-┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre contacto*_
-┣ ↠🎳 _${usedPrefix}spam *numero|texto|cantidad*_ 
-┣ ↠🎯 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
-┣ ↠🎲 _${usedPrefix}experiencia | exp
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *COMANDOS +18*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *Usalo si el grupo te lo permite*
-┃ *NO nos hacemos responsables*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🔞 _${usedPrefix}labiblia_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *EFECTOS PARA AUDIOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *Responde a un audio o nota de voz*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎤 _${usedPrefix}bass_
-┣ ↠🎤 _${usedPrefix}deep_
-┣ ↠🎤 _${usedPrefix}earrape_
-┣ ↠🎤 _${usedPrefix}fast_
-┣ ↠🎤 _${usedPrefix}fat_
-┣ ↠🎤 _${usedPrefix}nightcore_
-┣ ↠🎤 _${usedPrefix}reverse_
-┣ ↠🎤 _${usedPrefix}robot_
-┣ ↠🎤 _${usedPrefix}slow_
-┣ ↠🎤 _${usedPrefix}tupai
-┣ ↠🎤 _${usedPrefix}smooth_
-┣ ↠🎤 _${usedPrefix}blown_
-┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
-┣ ↠🎤 _${usedPrefix}tovn *audio a nota de voz*
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *AUDIOS|MENU* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🔊 _${usedPrefix}menu2_
-┣ ↠🔊 _${usedPrefix}menuaudios_
-┣ ↠🔊 _${usedPrefix}audios_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CAJA DE ALMACENAMIENTO* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠📦 _${usedPrefix}caja_
-┣ ↠📦 _${usedPrefix}almacen_
-┣ ↠📦 _${usedPrefix}cjalmacen_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CHAT ANONIMO*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *¡Escribe con alguien de forma anónima!* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠👤 _${usedPrefix}chatanonimo | anonimochat_
-┣ ↠👤 _${usedPrefix}anonimoch_
-┣ ↠👤 _${usedPrefix}start_
-┣ ↠👤 _${usedPrefix}next_
-┣ ↠👤 _${usedPrefix}leave_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CONVIERTETE EN BOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠❇️ _${usedPrefix}stop_
-┣ ↠❇️ _${usedPrefix}jadibot | serbot_
-┣ ↠❇️ _${usedPrefix}getcode_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *LOGOS PERSONALIZADOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎀 _${usedPrefix}cementerio | logocementerio_
-┣ ↠🪅 _${usedPrefix}cesped | logocesped_
-┣ ↠🎀 _${usedPrefix}coffe | logocoffe_
-┣ ↠🪅 _${usedPrefix}fire | logofire_
-┣ ↠🎀 _${usedPrefix}flaming | logoflaming_
-┣ ↠🪅 _${usedPrefix}lovemessages | lovemensajes_
-┣ ↠🎀 _${usedPrefix}playa | logoplaya_
-┣ ↠🪅 _${usedPrefix}logorandom_
-┣ ↠🎀 _${usedPrefix}romanticdouble | romantico2_
-┣ ↠🪅 _${usedPrefix}romanticmessages | romanticms_
-┣ ↠🎀 _${usedPrefix}logosky_
-┣ ↠🪅 _${usedPrefix}taza | logotaza_
-┣ ↠🎀 _${usedPrefix}taza2 | logotaza2_
-┣ ↠🪅 _${usedPrefix}technology | tecnologia_
-┣ ↠🎀 _${usedPrefix}coff_
-┣ ↠🪅 _${usedPrefix}lolice_
-┣ ↠🎀 _${usedPrefix}simpcard_
-┣ ↠🪅 _${usedPrefix}hornycard_ 
-┣ ↠🎀 _${usedPrefix}lblackpink_
-┣ ↠🪅 _${usedPrefix}logocorazon_
-┣ ↠🎀 _${usedPrefix}tahta *texto*_
-┣ ↠🪅 _${usedPrefix}nulis | notas *texto*_
-┣ ↠🎀 _${usedPrefix}nulis2 | notas2 *texto*_
-┣ ↠🪅 _${usedPrefix}lolice *@tag*_
-┣ ↠🎀 _${usedPrefix}simpcard *@tag*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *LISTA DE LOGOS PERSONALIZADOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🔮 _${usedPrefix}logos_ *(lista)*
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *PROPIETARIO/A DEL BOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠👑 _${usedPrefix}boost | acelerar_
-┣ ↠💎 _${usedPrefix}restart_
-┣ ↠👑 _${usedPrefix}banlist_
-┣ ↠💎 _${usedPrefix}virtext1 | traba1_
-┣ ↠👑 _${usedPrefix}actualizar | update_
-┣ ↠👑 _${usedPrefix}bc *texto*_
-┣ ↠💎 _${usedPrefix}bcgc *texto*_
-┣ ↠👑 _${usedPrefix}bcbot *texto*_
-┣ ↠💎 _${usedPrefix}setbye *@tag*_
-┣ ↠👑 _${usedPrefix}banuser *@tag*_
-┣ ↠💎 _${usedPrefix}enable *public*_
+
+🌿 *CREADORES*
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}s_
+ ─ ۰ _${usedPrefix}sticker_
+ ─ ۰ _${usedPrefix}semoji | emoji_
+ ─ ۰ _${usedPrefix}emojimix 🐱+😼_
+ ─ ۰ _${usedPrefix}wasted_
+ ─ ۰ _${usedPrefix}stonks_
+ ─ ۰ _${usedPrefix}trash *Responda a una foto*_
+ ─ ۰ _${usedPrefix}sgay *Responda a una foto*_
+ ─ ۰ _${usedPrefix}circle *Responda a una foto*_
+ ─ ۰ _${usedPrefix}stickermaker_
+ ─ ۰ _${usedPrefix}attp *texto*_
+ ─ ۰ _${usedPrefix}attp2 | s1 | sa *texto*_
+ ─ ۰ _${usedPrefix}stickerfilter | cs2_
+ ─ ۰ _${usedPrefix}tomp3 | mp3 *responde a un video*_
+ ─ ۰ _${usedPrefix}toimg | img *responde a un sticker*_
+ ─ ۰ _${usedPrefix}togif | gif *responde a sticker/video*_
+ ─ ۰ _${usedPrefix}ytcomentario | ytcomentar *texto*_
+ ─ ۰ _${usedPrefix}blur *responde a una imagen*_
+ ─ ۰ _${usedPrefix}jaal *Responda a una foto*_
+ ─ ۰ _${usedPrefix}swm *imagen | video | gif*_
+ ─ ۰ _${usedPrefix}tovideo *responde a una nota de voz*_
+ ─ ۰ _${usedPrefix}wanted *Responda a una foto*_
+└──────────────────┘
+
+🖋 *ESTILOS DE TEXTOS*
+┌──────────────────┐
+ *¡Una gran variedad de estilos de textos!*
+ ─ ۰ _${usedPrefix}style *texto*_
+ ─ ۰ _${usedPrefix}estilo *texto*_
+└──────────────────┘
+
+✉ *SUBIR ESTADOS A GATABOT*
+┌──────────────────┐
+ *¡Sube estados a la cuenta de GataBot!*
+ ─ ۰ _${usedPrefix}subirestado *texto / video|imagen*_
+ ─ ۰ _${usedPrefix}subirestado *texto / gif*_
+└──────────────────┘
+
+▪️ *RANDOM|EXTRAS*
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}pubg_
+ ─ ۰ _${usedPrefix}doraemon_
+ ─ ۰ _${usedPrefix}jeni_
+ ─ ۰ _${usedPrefix}jisoo_
+ ─ ۰ _${usedPrefix}rose_
+ ─ ۰ _${usedPrefix}wpmontaña | fondomontaña_
+ ─ ۰ _${usedPrefix}wpgaming | fondogaming_
+ ─ ۰ _${usedPrefix}randomwallpaper_
+ ─ ۰ _${usedPrefix}compartirfoto_
+ ─ ۰ _${usedPrefix}futbol_
+ ─ ۰ _${usedPrefix}Messi_
+ ─ ۰ _${usedPrefix}animal_
+ ─ ۰ _${usedPrefix}meme_
+ ─ ۰ _${usedPrefix}meme2_
+ ─ ۰ _${usedPrefix}meme3_
+ ─ ۰ _${usedPrefix}cat | gato | gata_
+ ─ ۰ _${usedPrefix}dog | perro | perra_
+ ─ ۰ _${usedPrefix}pikachu_
+ ─ ۰ _${usedPrefix}waifu_
+ ─ ۰ _${usedPrefix}blackpink_
+ ─ ۰ _${usedPrefix}reto_
+ ─ ۰ _${usedPrefix}verdad_
+ ─ ۰ _${usedPrefix}imagenrandom | random | epico_
+ ─ ۰ _${usedPrefix}neko_
+ ─ ۰ _${usedPrefix}lolivid_
+ ─ ۰ _${usedPrefix}iqtest | iq | inteligencia_
+ ─ ۰ _${usedPrefix}kpopitzy_
+ ─ ۰ _${usedPrefix}navidad_
+ ─ ۰ _${usedPrefix}loli_
+ ─ ۰ _${usedPrefix}gawrgura_
+ ─ ۰ _${usedPrefix}miku_
+ ─ ۰ _${usedPrefix}nyan_
+ ─ ۰ _${usedPrefix}pat_
+ ─ ۰ _${usedPrefix}itachi_
+ ─ ۰ _${usedPrefix}slap_
+ ─ ۰ _${usedPrefix}pasticker_
+ ─ ۰ _${usedPrefix}perfil_
+ ─ ۰ _${usedPrefix}scan | datos | escaneo_
+ ─ ۰ _${usedPrefix}kpop_
+ ─ ۰ _${usedPrefix}qr *texto*_
+ ─ ۰ _${usedPrefix}afk | aviso | informo *motivo*_
+ ─ ۰ _${usedPrefix}CristianoRonaldo_
+ ─ ۰ _${usedPrefix}pregunta *pregunta*_
+ ─ ۰ _${usedPrefix}mention | mensaje *texto*_
+ ─ ۰ _${usedPrefix}spamchat *texto*_
+ ─ ۰ _${usedPrefix}traducir es *texto*_
+ ─ ۰ _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
+ ─ ۰ _${usedPrefix}readmore | leermas *texto1| texto2*_
+ ─ ۰ _${usedPrefix}calc | calculadora *expresión mat.*_ 
+ ─ ۰ _${usedPrefix}spamwa *numero|texto|cantidad*_
+ ─ ۰ _${usedPrefix}readqr *responde a un código QR*_
+ ─ ۰ _${usedPrefix}anime *random / waifu / husbu /neko*_
+ ─ ۰ _${usedPrefix}agendar *@tag + nombre contacto*_
+ ─ ۰ _${usedPrefix}guardar *@tag + nombre contacto*_
+ ─ ۰ _${usedPrefix}spam *numero|texto|cantidad*_ 
+ ─ ۰ _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+ ─ ۰ _${usedPrefix}experiencia | exp
+└──────────────────┘
+
+ 📍 *COMANDOS +18*
+┌──────────────────┐
+ *Úsalo si el grupo te lo permite*
+ ─ ۰ _${usedPrefix}labiblia_
+└──────────────────┘
+
+📼 *EFECTOS PARA AUDIOS*
+┌──────────────────┐
+ *Responde a un audio o nota de voz*
+ ─ ۰ _${usedPrefix}bass_
+ ─ ۰ _${usedPrefix}deep_
+ ─ ۰ _${usedPrefix}earrape_
+ ─ ۰ _${usedPrefix}fast_
+ ─ ۰ _${usedPrefix}fat_
+ ─ ۰ _${usedPrefix}nightcore_
+ ─ ۰ _${usedPrefix}reverse_
+ ─ ۰ _${usedPrefix}robot_
+ ─ ۰ _${usedPrefix}slow_
+ ─ ۰ _${usedPrefix}tupai
+ ─ ۰ _${usedPrefix}smooth_
+ ─ ۰ _${usedPrefix}blown_
+ ─ ۰ _${usedPrefix}vibracion *cantidad*_
+ ─ ۰ _${usedPrefix}tovn *audio a nota de voz*
+└──────────────────┘
+
+▫️ *AUDIOS | MENU* 
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}menu2_
+ ─ ۰ _${usedPrefix}menuaudios_
+ ─ ۰ _${usedPrefix}audios_
+└──────────────────┘
+
+▪️ *CAJA DE ALMACENAMIENTO* 
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}caja_
+ ─ ۰ _${usedPrefix}almacen_
+ ─ ۰ _${usedPrefix}cjalmacen_
+└──────────────────┘
+
+👤 *CHAT ANONIMO*
+┌──────────────────┐
+ *¡Escribe con alguien de forma anónima!* 
+ ─ ۰ _${usedPrefix}chatanonimo | anonimochat_
+ ─ ۰ _${usedPrefix}anonimoch_
+ ─ ۰ _${usedPrefix}start_
+ ─ ۰ _${usedPrefix}next_
+ ─ ۰ _${usedPrefix}leave_
+└──────────────────┘
+
+▫️ *LOGOS PERSONALIZADOS*
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}cementerio | logocementerio_
+ ─ ۰ _${usedPrefix}cesped | logocesped_
+ ─ ۰ _${usedPrefix}coffe | logocoffe_
+ ─ ۰ _${usedPrefix}fire | logofire_
+ ─ ۰ _${usedPrefix}flaming | logoflaming_
+ ─ ۰ _${usedPrefix}lovemessages | lovemensajes_
+ ─ ۰ _${usedPrefix}playa | logoplaya_
+ ─ ۰ _${usedPrefix}logorandom_
+ ─ ۰ _${usedPrefix}romanticdouble | romantico2_
+ ─ ۰ _${usedPrefix}romanticmessages | romanticms_
+ ─ ۰ _${usedPrefix}logosky_
+ ─ ۰ _${usedPrefix}taza | logotaza_
+ ─ ۰ _${usedPrefix}taza2 | logotaza2_
+ ─ ۰ _${usedPrefix}technology | tecnologia_
+ ─ ۰ _${usedPrefix}coff_
+ ─ ۰ _${usedPrefix}lolice_
+ ─ ۰ _${usedPrefix}simpcard_
+ ─ ۰ _${usedPrefix}hornycard_ 
+ ─ ۰ _${usedPrefix}lblackpink_
+ ─ ۰ _${usedPrefix}logocorazon_
+ ─ ۰ _${usedPrefix}tahta *texto*_
+ ─ ۰ _${usedPrefix}nulis | notas *texto*_
+ ─ ۰ _${usedPrefix}nulis2 | notas2 *texto*_
+ ─ ۰ _${usedPrefix}lolice *@tag*_
+ ─ ۰ _${usedPrefix}simpcard *@tag*_
+└──────────────────┘
+
+ *LISTA DE LOGOS PERSONALIZADOS*
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}logos_ *(lista)*
+└──────────────────┘
+
+▫️ *PROPIETARIO/A DEL BOT*
+┌──────────────────┐
+ ─ ۰ _${usedPrefix}boost | acelerar_
+ ─ ۰ _${usedPrefix}restart_
+ ─ ۰ _${usedPrefix}banlist_
+ ─ ۰ _${usedPrefix}virtext1 | traba1_
+ ─ ۰ _${usedPrefix}actualizar | update_
+ ─ ۰ _${usedPrefix}bc *texto*_
+ ─ ۰ _${usedPrefix}bcgc *texto*_
+ ─ ۰ _${usedPrefix}bcbot *texto*_
+ ─ ۰ _${usedPrefix}setbye *@tag*_
+ ─ ۰ _${usedPrefix}banuser *@tag*_
+─ ۰ _${usedPrefix}enable *public*_
 ┣ ↠👑 _${usedPrefix}disable *public*_
 ┣ ↠💎 _${usedPrefix}unbanuser *@tag*_
 ┣ ↠👑 _${usedPrefix}listgroup_
