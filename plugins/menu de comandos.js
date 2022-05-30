@@ -17,6 +17,7 @@ let menu =`
 
  ─🎖 𝗧𝗢𝗣𝗦
  
+ ┌──────────────────┐
 ۰ _${usedPrefix}top10gays | topgay_
 ۰ _${usedPrefix}toplind@s | toplind@_
 ۰ _${usedPrefix}topput@s | toppt_
@@ -26,6 +27,7 @@ let menu =`
 ۰ _${usedPrefix}top10shiposters | topshipost_
 ۰ _${usedPrefix}top10panafrescos_
 ۰ _${usedPrefix}top10lagrasa | top10grasa_
+└──────────────────┘
 
  ─🕹 𝗝𝗨𝗘𝗚𝗢𝗦 
  
@@ -94,7 +96,7 @@ let menu =`
 ۰ _${usedPrefix}frase *escriba un número (1 - 99)*_
 ۰ _${usedPrefix}wpaesthetic | fondoaesthetic_
 
-┏━━━━━━━━━━━━━━━━━━┓
+┏⁷━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔐 _${usedPrefix}admins *texto*_ 
