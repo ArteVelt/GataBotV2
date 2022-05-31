@@ -10,42 +10,41 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =`
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
- ‖
- ‖⇛ 🔮 _${usedPrefix}logos_ *(lista)*
- ‖⇛ 💮 _${usedPrefix}cementerio | logocementerio_
- ‖⇛ 💮 _${usedPrefix}cesped | logocesped_
- ‖⇛ 💮 _${usedPrefix}coffe | logocoffe_
- ‖⇛ 💮 _${usedPrefix}fire | logofire_
- ‖⇛ 💮 _${usedPrefix}flaming | logoflaming_
- ‖⇛ 💮 _${usedPrefix}lovemessages | lovemensajes_
- ‖⇛ 💮 _${usedPrefix}playa | logoplaya_
- ‖⇛ 💮 _${usedPrefix}logorandom_
- ‖⇛ 💮 _${usedPrefix}romanticdouble | romantico2_
- ‖⇛ 💮 _${usedPrefix}romanticmessages | romanticms_
- ‖⇛ 💮 _${usedPrefix}logosky_
- ‖⇛ 💮 _${usedPrefix}taza | logotaza_
- ‖⇛ 💮 _${usedPrefix}taza2 | logotaza2_
- ‖⇛ 💮 _${usedPrefix}technology | tecnologia_
- ‖⇛ 💮 _${usedPrefix}coff_
- ‖⇛ 💮 _${usedPrefix}lolice_
- ‖⇛ 💮 _${usedPrefix}simpcard_
- ‖⇛ 💮 _${usedPrefix}hornycard_ 
- ‖⇛ 💮 _${usedPrefix}lblackpink_
- ‖⇛ 💮 _${usedPrefix}logocorazon_
- ‖⇛ 💮 _${usedPrefix}tahta *texto*_
- ‖⇛ 💮 _${usedPrefix}nulis | notas *texto*_
- ‖⇛ 💮 _${usedPrefix}nulis2 | notas2 *texto*_
- ‖⇛ 💮 _${usedPrefix}lolice *@tag*_
- ‖⇛ 💮 _${usedPrefix}simpcard *@tag*_
- ‖ ➥ ⧼ *_MENÚ LOGOS PERSONALIZADO_* ⧽ 
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+ *¡Hola! ${username}* ♡
+
+▫️ 𝗠𝗘𝗡𝗨 𝗟𝗢𝗚𝗢𝗦
+ ┌──────────────────┐
+  ─ ۰ _${usedPrefix}logos_ *(lista)*
+  ─ ۰ _${usedPrefix}cementerio | logocementerio_
+  ─ ۰ _${usedPrefix}cesped | logocesped_
+  ─ ۰ _${usedPrefix}coffe | logocoffe_
+  ─ ۰ _${usedPrefix}fire | logofire_
+  ─ ۰ _${usedPrefix}flaming | logoflaming_
+  ─ ۰ _${usedPrefix}lovemessages | lovemensajes_
+  ─ ۰ _${usedPrefix}playa | logoplaya_
+  ─ ۰ _${usedPrefix}logorandom_
+  ─ ۰ _${usedPrefix}romanticdouble | romantico2_
+  ─ ۰ _${usedPrefix}romanticmessages | romanticms_
+  ─ ۰ _${usedPrefix}logosky_
+  ─ ۰ _${usedPrefix}taza | logotaza_
+  ─ ۰ _${usedPrefix}taza2 | logotaza2_
+  ─ ۰ _${usedPrefix}technology | tecnologia_
+  ─ ۰ _${usedPrefix}coff_
+  ─ ۰ _${usedPrefix}lolice_
+  ─ ۰ _${usedPrefix}simpcard_
+  ─ ۰ _${usedPrefix}hornycard_ 
+  ─ ۰ _${usedPrefix}lblackpink_
+  ─ ۰ _${usedPrefix}logocorazon_
+  ─ ۰ _${usedPrefix}tahta *texto*_
+  ─ ۰ _${usedPrefix}nulis | notas *texto*_
+  ─ ۰ _${usedPrefix}nulis2 | notas2 *texto*_
+  ─ ۰ _${usedPrefix}lolice *@tag*_
+  ─ ۰ _${usedPrefix}simpcard *@tag*_
+ └──────────────────┘
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
 `.trim(), menu, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '👤 𝙈𝙀𝙉𝙐 𝘾𝙃𝘼𝙏 𝘼𝙉𝙊𝙉𝙄𝙈𝙊 👤', `#menuchat`, '💎 𝙈𝙀𝙉𝙐 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊/𝘼 💎', `#menupropietaria`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menulogos|menulogos|menucrearlogos|mlogos|Menucrearlogos|Mlogos|menúcrearlogos|menucrearlogo|mlogo)$/i
