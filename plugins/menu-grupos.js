@@ -10,41 +10,40 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =` 
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
- ‖
- ‖⇛ 🔐 _${usedPrefix}admins *texto*_ 
- ‖⇛ 🔐 _${usedPrefix}añadir *numero*_ (desactivado)
- ‖⇛ 🔐 _${usedPrefix}sacar @tag_ (desactivado)
- ‖⇛ 🔐 _${usedPrefix}save *@tag + nombre de contacto*_
- ‖⇛ 🔐 _${usedPrefix}daradmin | darpoder *@tag*_
- ‖⇛ 🔐 _${usedPrefix}quitaradmin | quitarpoder *@tag*_
- ‖⇛ 🔐 _${usedPrefix}grupo *abierto / cerrado*_
- ‖⇛ 🔐 _${usedPrefix}enable welcome_
- ‖⇛ 🔐 _${usedPrefix}disable welcome_
- ‖⇛ 🔐 _${usedPrefix}enable antilink_ *(WhatsApp)*
- ‖⇛ 🔐 _${usedPrefix}disable antilink_ 
- ‖⇛ 🔐 _${usedPrefix}enable antilink2_ *(https:)*
- ‖⇛ 🔐 _${usedPrefix}disable antilink2_
- ‖⇛ 🔐 _${usedPrefix}enable delete_
- ‖⇛ 🔐 _${usedPrefix}disable  delete_ 
- ‖⇛ 🔐 _${usedPrefix}link_
- ‖⇛ 🔐 _${usedPrefix}notificar | hidetag *texto*_
- ‖⇛ 🔐 _${usedPrefix}setname *Nuevo nombre del grupo*_
- ‖⇛ 🔐 _${usedPrefix}setdesc *Nueva descripción grupo*_
- ‖⇛ 🔐 _${usedPrefix}infogrupo_
- ‖⇛ 🔐 _${usedPrefix}invocar *texto*_
- ‖⇛ 🔐 _${usedPrefix}del *responder a un mensaje del bot*_
- ‖⇛ 🔐 _${usedPrefix}fantasmas_
- ‖⇛ 🔐 _${usedPrefix}banchat_
- ‖⇛ 🔐 _${usedPrefix}unbanchat_
- ‖ ➥ ⧼ *_MENÚ GESTIÓN DE GRUPOS_* ⧽ 
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+ *¡Hola! ${username}* ♡
+ 
+▫️ 𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢𝗦
+ ┌──────────────────┐
+  ─ ۰ _${usedPrefix}admins *texto*_ 
+  ─ ۰ _${usedPrefix}añadir *numero*_ (desactivado)
+  ─ ۰ _${usedPrefix}sacar @tag_ (desactivado)
+  ─ ۰ _${usedPrefix}save *@tag + nombre de contacto*_
+  ─ ۰ _${usedPrefix}daradmin | darpoder *@tag*_
+  ─ ۰ _${usedPrefix}quitaradmin | quitarpoder *@tag*_
+  ─ ۰ _${usedPrefix}grupo *abierto / cerrado*_
+  ─ ۰ _${usedPrefix}enable welcome_
+  ─ ۰ _${usedPrefix}disable welcome_
+  ─ ۰ _${usedPrefix}enable antilink_ *(WhatsApp)*
+  ─ ۰ _${usedPrefix}disable antilink_ 
+  ─ ۰ _${usedPrefix}enable antilink2_ *(https:)*
+  ─ ۰ _${usedPrefix}disable antilink2_
+  ─ ۰ _${usedPrefix}enable delete_
+  ─ ۰ _${usedPrefix}disable  delete_ 
+  ─ ۰ _${usedPrefix}link_
+  ─ ۰ _${usedPrefix}notificar | hidetag *texto*_
+  ─ ۰ _${usedPrefix}setname *Nuevo nombre del grupo*_
+  ─ ۰ _${usedPrefix}setdesc *Nueva descripción grupo*_
+  ─ ۰ _${usedPrefix}infogrupo_
+  ─ ۰ _${usedPrefix}invocar *texto*_
+  ─ ۰ _${usedPrefix}del *responder a un mensaje del bot*_
+  ─ ۰ _${usedPrefix}fantasmas_
+  ─ ۰ _${usedPrefix}banchat_
+  ─ ۰ _${usedPrefix}unbanchat_
+ └──────────────────┘
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
 `.trim(), menu, '🎨 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘾𝙍𝙀𝘼𝘾𝙄𝙊𝙉 🎨', `#menucreador`, '💥 𝘼𝙉𝙄𝙈𝙀/𝙍𝘼𝙉𝘿𝙊𝙈 💥', `#menurandom`, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menugrupo|menugrupos|menúgrupo|menúgrupos|Menúgrupo|Menúgrupos)$/i
