@@ -10,21 +10,20 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =` 
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
- ‖
- ‖⇛ 👤 _${usedPrefix}chatanonimo | anonimochat_
- ‖⇛ 👤 _${usedPrefix}anonimoch_
- ‖⇛ 👤 _${usedPrefix}start_
- ‖⇛ 👤 _${usedPrefix}next_
- ‖⇛ 👤 _${usedPrefix}leave_
- ‖ ➥ ⧼ *_MENÚ CHAT ANÓNIMO_* ⧽ 
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+ *¡Hola! ${username}* ♡
+ 
+ 👤 𝗖𝗛𝗔𝗧 𝗔𝗡𝗢𝗡𝗜𝗠𝗢 
+ ┌──────────────────┐
+  ─ ۰ _${usedPrefix}chatanonimo | anonimochat_
+  ─ ۰ _${usedPrefix}anonimoch_
+  ─ ۰ _${usedPrefix}start_
+  ─ ۰ _${usedPrefix}next_
+  ─ ۰ _${usedPrefix}leave_
+ └──────────────────┘
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
 `.trim(), menu, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '💮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙇𝙊𝙂𝙊𝙎 💮', `#menucrearlogos`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menuchat|menuanonimoMenuchat|Menuanonimo|menúchat|menúanonimo)$/i
