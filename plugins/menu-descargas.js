@@ -10,47 +10,46 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =` 
-╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
- ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
- ‖ 💖 *¡𝗛ola! ${username}* 💖
- ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
- ‖
- ‖⇛ 🚀 _${usedPrefix}imagen | image | gimage *texto*_
- ‖⇛ 🚀 _${usedPrefix}ytsearch *texto*_
- ‖⇛ 🚀 _${usedPrefix}dlaudio *link yt*_
- ‖⇛ 🚀 _${usedPrefix}dlvid *link yt*_
- ‖⇛ 🚀 _${usedPrefix}ytmp3 *link yt*_
- ‖⇛ 🚀 _${usedPrefix}ytmp4 *link yt*_
- ‖⇛ 🚀 _${usedPrefix}play *titulo del audio*_
- ‖⇛ 🚀 _${usedPrefix}play.1 *titulo del audio*_
- ‖⇛ 🚀 _${usedPrefix}play.2 *titulo del video*_
- ‖⇛ 🚀 _${usedPrefix}play2 *titulo del video*_
- ‖⇛ 🚀 _${usedPrefix}play3 *titulo del audio/video*_
- ‖⇛ 🚀 _${usedPrefix}play6 *artista y titulo*_
- ‖⇛ 🚀 _${usedPrefix}letra *nombredelacanción*_
- ‖⇛ 🚀 _${usedPrefix}google *texto*_
- ‖⇛ 🚀 _${usedPrefix}googlef *texto*_
- ‖⇛ 🚀 _${usedPrefix}pinterestvideo | pintvid *link*_
- ‖⇛ 🚀 _${usedPrefix}tiktokaudio *link del tiktok*_
- ‖⇛ 🚀 _${usedPrefix}tiktok *link*_
- ‖⇛ 🚀 _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
- ‖⇛ 🚀 _${usedPrefix}acortar | reducir *link*_
- ‖⇛ 🚀 _${usedPrefix}pinterest | pinterest2 *texto*_
- ‖⇛ 🚀 _${usedPrefix}ssweb | capturar | captura *link*_
- ‖⇛ 🚀 _${usedPrefix}animeinfo *nombre del anime*_
- ‖⇛ 🚀 _${usedPrefix}wpanime | fondoanime_
- ‖⇛ 🚀 _${usedPrefix}verinstagram | verig |igver *usuario*_
- ‖⇛ 🚀 _${usedPrefix}ighistorias|historiasig *usuario*_
- ‖⇛ 🚀 _${usedPrefix}twittervideo | twvid *link de twitter*_
- ‖⇛ 🚀 _${usedPrefix}wikipedia | wiki | internet *texto*_
- ‖⇛ 🚀 _${usedPrefix}spotify | spotimusica *autor, cancion*_
- ‖⇛ 🚀 _${usedPrefix}frase *escriba un número (1 - 99)*_
- ‖⇛ 🚀 _${usedPrefix}wpaesthetic | fondoaesthetic_
- ‖ ➥ ⧼ *_MENÚ DE DESCARGAS_* ⧽  
-╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+╌╌╌───  *Vélɑut* | *Bot*  ───╌╌╌
+ *¡Hola! ${username}* ♡
+ 
+ 📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦
+ ┌──────────────────┐
+  ─ ۰ _${usedPrefix}imagen | image | gimage *texto*_
+  ─ ۰ _${usedPrefix}ytsearch *texto*_
+  ─ ۰ _${usedPrefix}dlaudio *link yt*_
+  ─ ۰ _${usedPrefix}dlvid *link yt*_
+  ─ ۰ _${usedPrefix}ytmp3 *link yt*_
+  ─ ۰ _${usedPrefix}ytmp4 *link yt*_
+  ─ ۰ _${usedPrefix}play *titulo del audio*_
+  ─ ۰ _${usedPrefix}play.1 *titulo del audio*_
+  ─ ۰ _${usedPrefix}play.2 *titulo del video*_
+  ─ ۰ _${usedPrefix}play2 *titulo del video*_
+  ─ ۰ _${usedPrefix}play3 *titulo del audio/video*_
+  ─ ۰ _${usedPrefix}play6 *artista y titulo*_
+  ─ ۰ _${usedPrefix}letra *nombredelacanción*_
+  ─ ۰ _${usedPrefix}google *texto*_
+  ─ ۰ _${usedPrefix}googlef *texto*_
+  ─ ۰ _${usedPrefix}pinterestvideo | pintvid *link*_
+  ─ ۰ _${usedPrefix}tiktokaudio *link del tiktok*_
+  ─ ۰ _${usedPrefix}tiktok *link*_
+  ─ ۰ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
+  ─ ۰ _${usedPrefix}acortar | reducir *link*_
+  ─ ۰ _${usedPrefix}pinterest | pinterest2 *texto*_
+  ─ ۰ _${usedPrefix}ssweb | capturar | captura *link*_
+  ─ ۰ _${usedPrefix}animeinfo *nombre del anime*_
+  ─ ۰ _${usedPrefix}wpanime | fondoanime_
+  ─ ۰ _${usedPrefix}verinstagram | verig |igver *usuario*_
+  ─ ۰ _${usedPrefix}ighistorias|historiasig *usuario*_
+  ─ ۰ _${usedPrefix}twittervideo | twvid *link de twitter*_
+  ─ ۰ _${usedPrefix}wikipedia | wiki | internet *texto*_
+  ─ ۰ _${usedPrefix}spotify | spotimusica *autor, cancion*_
+  ─ ۰ _${usedPrefix}frase *escriba un número (1 - 99)*_
+  ─ ۰ _${usedPrefix}wpaesthetic | fondoaesthetic_
+ └──────────────────┘
+`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
 `.trim(), menu, '🔐 𝙂𝙀𝙎𝙏𝙄𝙊𝙉 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 🔐', `#menugrupo`, '🎨 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘾𝙍𝙀𝘼𝘾𝙄𝙊𝙉 🎨', `#menucreador`, '💥 𝘼𝙉𝙄𝙈𝙀/𝙍𝘼𝙉𝘿𝙊𝙈 💥', `#menurandom`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menudescarga|menudescargas|Menudescargas|Menúdescargas|Menúdescarga|menúdescarga)$/i
