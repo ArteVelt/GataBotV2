@@ -18,7 +18,7 @@ let menu =`
   ─ ۰ _${usedPrefix}s_
   ─ ۰ _${usedPrefix}sticker_
   ─ ۰ _${usedPrefix}semoji | emoji_
-  ─ ۰ _${usedPrefix}emojimix 🥺+🤩_
+  ─ ۰ _${usedPrefix}emojimix 🥺+🥲_
   ─ ۰ _${usedPrefix}wasted_
   ─ ۰ _${usedPrefix}stonks_
   ─ ۰ _${usedPrefix}trash *Responda a una foto*_
@@ -54,7 +54,7 @@ let menu =`
   ─ ۰ _${usedPrefix}smooth_
   ─ ۰ _${usedPrefix}blown_
   ─ ۰ _${usedPrefix}vibracion *cantidad*_
-  ─ ۰ _${usedPrefix}tovn *audio a nota de voz*
+  ─ ۰ _${usedPrefix}tovn *audio a nota de voz*_
  └──────────────────┘
 
 `.trim()
