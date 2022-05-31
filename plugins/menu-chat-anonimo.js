@@ -23,7 +23,7 @@ let menu =`
  └──────────────────┘
 `.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀🕊
 `.trim(), menu, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '💮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙇𝙊𝙂𝙊𝙎 💮', `#menucrearlogos`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menuchat|menuanonimoMenuchat|Menuanonimo|menúchat|menúanonimo)$/i
